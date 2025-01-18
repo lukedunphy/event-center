@@ -9,21 +9,11 @@ body {
 }
 
 /* Navigation Bar */
-/* nav {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-} */
-
 nav {
     display: flex;
-    justify-content: center; /* Centers links horizontally */
-    align-items: center; /* Aligns links vertically */
-    gap: 15px; /* Adds spacing between links */
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
     background-color: #4CAF50;
     color: white;
     padding: 10px 0;
@@ -42,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFD700; /* Gold color */
+    color: #FFD700; 
 }
 
 /* Hero Image */
