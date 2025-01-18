@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+/* nav {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+} */
+
+nav {
+    display: flex;
+    justify-content: center; /* Centers links horizontally */
+    align-items: center; /* Aligns links vertically */
+    gap: 15px; /* Adds spacing between links */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold color */
+}
+
+/* Hero Image */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    color: #555;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Events Page */
+article {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Menu Page */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #eaeaea;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Location Page */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
+
+p {
+    text-align: center;
+}
+
+/* Contact Page */
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker green */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 1px 0;
+        height: 17x;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
